@@ -1,0 +1,42 @@
+[
+  {
+    "name":"Ahmed Hisham",
+    "department":"CS",
+    "age":24
+  },
+  {
+    "name":"Nada Ahmed",
+    "department":"CS",
+    "age":25
+  },
+  {
+    "name":"Mahmoud Abd Elnasser",
+    "department":"CS",
+    "age":24
+  },
+  {
+    "name":"Ahmed Ousman",
+    "department":"CS",
+    "age":24
+  },
+  {
+    "name":"Mohamed Hisham",
+    "department":"CS",
+    "age":22
+  },
+  {
+    "name":"Hend Hussain",
+    "department":"CS",
+    "age":25
+  },
+  {
+    "name":"Saif El Nogoly",
+    "department":"IS",
+    "age":21
+  },
+  {
+    "name":"Galal El Beialy",
+    "department":"Mechatronics",
+    "age":23
+  }
+]

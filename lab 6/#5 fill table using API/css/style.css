@@ -1,0 +1,14 @@
+/* Button */
+button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    border: none;
+    margin: 20px 0;
+  }
+
+  td{
+    padding: 0 5px;
+  }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <lable>Name</lable>
+        <input type="text" id="txtName" />
+        <lable>Age</lable>
+        <input type="text" id="txtAge" />
+        <lable>select gender</lable>
+        <div class="genders">
+          <span class="gender-box">
+            <img src="./images/1.jpg" />
+            <input type="radio" name="gender" id="Male" />
+          </span>
+          <span class="gender-box">
+            <img src="./images/2.jpg" />
+            <input type="radio" name="gender" id="Female" />
+          </span>
+        </div>
+        <lable>select your favourite color</lable>
+        <select id="colors">
+          <option value="red">Red</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+        </select>
+      </div>
+      <button onclick="register()">register</button>
+    </div>
+    <script src="./js/scrip.js"></script>
+  </body>
+</html>

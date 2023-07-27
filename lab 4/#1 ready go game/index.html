@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="intro">
+      <h2><span class="blue-color">Ready Go</span> Game</h2>
+      <p>
+        Write a function that follow the below rule. Take the given number and
+        light corresponding circle
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="main-container">
+        <div class="row">
+          <label id="lblInput">Input</label>
+          <input id="txtState" placeholder="Enter value from 1,2 or 3" onkeyup="changeState()" type="text" />
+        </div>
+        <div class="row">
+          <label id="lblOutput">Output</label>
+          <div class="circles">
+            <span id="ready"></span>
+            <span id="steady"></span>
+            <span id="go"></span>
+          </div>
+        </div>
+        <div class="row">
+          <label id="lblNote">Note</label>
+          <div>
+            Rule: <br />
+            1=Ready; 2=Steady; 3=Go
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

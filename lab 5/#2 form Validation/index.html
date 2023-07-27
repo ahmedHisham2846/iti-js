@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <form class="container">
+      <div class="form-groub">
+        <label>Name</label>
+        <input type="text" id="txtName" />
+      </div>
+
+      <div class="form-groub">
+        <label for="">Email</label>
+        <input type="text" id="txtEmail" />
+      </div>
+
+      <div class="form-groub">
+        <label for="">Password</label>
+        <input type="password" id="txtPassword" />
+      </div>
+
+      <div class="form-groub">
+        <label for="">Gender</label>
+        <div>
+          <input type="radio" id="male" name="gender" />
+          <label for="male">Male</label>
+        </div>
+        <div>
+          <input type="radio" id="female" name="gender" />
+          <label for="female">Female</label>
+        </div>
+      </div>
+
+      <div class="form-groub">
+        <label for="">Sports</label>
+        <div>
+          <input type="checkbox" id="tennis" />
+          <label for="tennis">Tennis</label>
+        </div>
+        <div>
+          <input type="checkbox" id="running" />
+          <label for="running">Running</label>
+        </div>
+        <div>
+          <input type="checkbox" id="football" />
+          <label for="football">Football</label>
+        </div>
+      </div>
+      <div class="form-groub">
+        <select id="country">
+          <option value="country1">country1</option>
+          <option value="country2">country2</option>
+          <option value="country2">country2</option>
+        </select>
+      </div>
+      <div class="form-groub">
+        <button type="submit" class="btn">Submit</button>
+        <button class="btn btn-error">Reset</button>
+      </div>
+    </form>
+    <div class="validation-state"></div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 500px;
+}
+.btn {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #5c8f14;
+  color: #fff;
+  font-weight: 200;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  width: 200px;
+}
+.btn-error {
+  background-color: #881908;
+}
+.form-groub{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  gap: 5px;
+}
+.form-groub input[type="password"],
+.form-groub input[type="text"]{
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+  outline: none;
+}
+.form-groub select{
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+}

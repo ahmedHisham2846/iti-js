@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.blue-color {
+  color: #0070c0;
+}
+
+.intro {
+  padding: 40px 200px;
+  width: 100%;
+}
+.intro > * {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2eeeb;
+}
+.main-container {
+  padding: 40px 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+}
+.row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.row label {
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  width: 84px;
+  text-align: center;
+}
+.row label#lblInput {
+  background-color: #00b050;
+}
+.row label#lblOutput {
+  background-color: #0070c0;
+}
+.row label#lblNote {
+  background-color: rgb(228, 108, 10);
+}
+.row input {
+  width: 240px;
+  height: 40px;
+  border-radius: 10px;
+  border: #b5e26c solid 2px;
+  outline: none;
+  font-size: 20px;
+  padding: 2px 5px;
+}
+.row .circles {
+  display: flex;
+  gap: 15px;
+}
+.row .circles span {
+  width: 70px;
+  height: 70px;
+  background-color: #aaa;
+  border-radius: 50%;
+}
+
+.row .circles span.go {
+  background-color: green;
+}
+.row .circles span.steady {
+  background-color: orange;
+}
+.row .circles span.ready {
+  background-color: red;
+}
